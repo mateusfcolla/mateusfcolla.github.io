@@ -1,0 +1,52 @@
+@media screen and (min-height: 300px) {
+    :root {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    :root {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    :root {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    :root {
+        font-size: 24px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 3rem;
+        .logo {
+            height: 1.1rem;
+        }
+        p {
+            display: block;
+        }
+    }
+
+    .texto {
+        height: 85vh;
+    }
+
+    a.botao {
+        font-size: .8rem;
+        padding: .8rem 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    nav {
+        padding: 1rem 4.5rem;
+    }
+}
