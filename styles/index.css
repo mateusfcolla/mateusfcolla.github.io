@@ -15,6 +15,14 @@
           box-sizing: border-box;
 }
 
+*::-moz-selection {
+  background-color: black;
+}
+
+*::selection {
+  background-color: black;
+}
+
 body {
   height: 100vh;
   position: relative;
