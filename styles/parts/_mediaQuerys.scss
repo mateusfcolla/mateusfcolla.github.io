@@ -17,11 +17,16 @@
 }
 
 @media screen and (min-width: 1000px) {
+
     :root {
         font-size: 24px;
     }
 
-    .grained{
+    .grained {
+        display: block;
+    }
+
+    p.footer {
         display: block;
     }
 
