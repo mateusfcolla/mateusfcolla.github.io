@@ -1,7 +1,7 @@
 :root {
   --general-color: #F5F5F5;
   --contrast-color: #E2E2E2;
-  --background: rgb(235, 45, 45);
+  --background: #EE2222;
   --background2: rgb(212, 192, 10);
   --background3: rgb(177, 30, 30);
   --background-gradient: linear-gradient(-360deg, var(--background2), var(--background), var(--background3));
