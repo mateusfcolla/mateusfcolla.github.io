@@ -34,6 +34,18 @@ body {
     animation: gradient 10s ease infinite;
 }
 
+.grained{
+    z-index: 1000;
+    background: url('../img/gained.png');
+    height: 300%;
+    width: 300%;
+    opacity: .8;
+    top:-100%;
+    pointer-events: none;
+    position: fixed;
+    animation: grain 8s steps(10) infinite;
+}
+
 nav {
 
     transition: 0.3s;

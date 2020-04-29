@@ -35,6 +35,19 @@ body {
           animation: gradient 10s ease infinite;
 }
 
+.grained {
+  z-index: 1000;
+  background: url("../img/gained.png");
+  height: 300%;
+  width: 300%;
+  opacity: .8;
+  top: -100%;
+  pointer-events: none;
+  position: fixed;
+  -webkit-animation: grain 8s steps(10) infinite;
+          animation: grain 8s steps(10) infinite;
+}
+
 nav {
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -312,6 +325,100 @@ a.botao:hover {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes grain {
+  0% {
+    -webkit-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%);
+  }
+  10% {
+    -webkit-transform: translate(-25%, 0%);
+    transform: translate(-25%, 0%);
+  }
+  20% {
+    -webkit-transform: translate(-30%, 10%);
+    transform: translate(-30%, 10%);
+  }
+  30% {
+    -webkit-transform: translate(-30%, 30%);
+    transform: translate(-30%, 30%);
+  }
+  40% {
+    -webkit-transform: translate();
+    transform: translate();
+  }
+  50% {
+    -webkit-transform: translate(-15%, 10%);
+    transform: translate(-15%, 10%);
+  }
+  60% {
+    -webkit-transform: translate(-20%, 20%);
+    transform: translate(-20%, 20%);
+  }
+  70% {
+    -webkit-transform: translate(-5%, 20%);
+    transform: translate(-5%, 20%);
+  }
+  80% {
+    -webkit-transform: translate(-25%, 5%);
+    transform: translate(-25%, 5%);
+  }
+  90% {
+    -webkit-transform: translate(-30%, 25%);
+    transform: translate(-30%, 25%);
+  }
+  100% {
+    -webkit-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%);
+  }
+}
+
+@keyframes grain {
+  0% {
+    -webkit-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%);
+  }
+  10% {
+    -webkit-transform: translate(-25%, 0%);
+    transform: translate(-25%, 0%);
+  }
+  20% {
+    -webkit-transform: translate(-30%, 10%);
+    transform: translate(-30%, 10%);
+  }
+  30% {
+    -webkit-transform: translate(-30%, 30%);
+    transform: translate(-30%, 30%);
+  }
+  40% {
+    -webkit-transform: translate();
+    transform: translate();
+  }
+  50% {
+    -webkit-transform: translate(-15%, 10%);
+    transform: translate(-15%, 10%);
+  }
+  60% {
+    -webkit-transform: translate(-20%, 20%);
+    transform: translate(-20%, 20%);
+  }
+  70% {
+    -webkit-transform: translate(-5%, 20%);
+    transform: translate(-5%, 20%);
+  }
+  80% {
+    -webkit-transform: translate(-25%, 5%);
+    transform: translate(-25%, 5%);
+  }
+  90% {
+    -webkit-transform: translate(-30%, 25%);
+    transform: translate(-30%, 25%);
+  }
+  100% {
+    -webkit-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%);
   }
 }
 /*# sourceMappingURL=index.css.map */
