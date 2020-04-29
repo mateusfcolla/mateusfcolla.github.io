@@ -27,13 +27,13 @@ function changeWord() {
 function animateLetterOut(cw, i) {
   setTimeout(function() {
 		cw[i].className = 'letter out';
-  }, i*65);
+  }, i*50);
 }
 
 function animateLetterIn(nw, i) {
   setTimeout(function() {
 		nw[i].className = 'letter in';
-  }, 340+(i*65));
+  }, 340+(i*50));
 }
 
 function splitLetters(word) {
