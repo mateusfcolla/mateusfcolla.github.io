@@ -64,15 +64,19 @@ nav {
             text-decoration: none;
             transition: 0.3s;
             color: var(--contrast-color);
+            padding: .4rem .7rem;
             &:hover {
-                color: var(--general-color);
+                color: var(--background);
+                padding: .4rem .7rem;
+                background: var(--general-color);
+                border-radius: 10px;
             }
         }
     }
 }
 
 .texto {
-    transition: 0.3s;
+    transition: .3s;
     height: 100vh;
     display: flex;
     justify-content: center;
