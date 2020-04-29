@@ -5,6 +5,7 @@
     --background: #EE2222;
     --background2: rgb(212, 192, 10); 
     --background3: rgb(180, 23, 23); 
+    --background4: rgb(22, 22, 22);
     // --general-color: #EE2222;
     // --contrast-color: rgb(204, 23, 23);
     // --background: #F5F5F5;
@@ -105,6 +106,7 @@ a.botao {
         color: var(--background);
     }
 }
+
 
 @import 'parts/mediaQuerys';
 

@@ -1,3 +1,4 @@
+
 var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
@@ -26,13 +27,13 @@ function changeWord() {
 function animateLetterOut(cw, i) {
   setTimeout(function() {
 		cw[i].className = 'letter out';
-  }, i*80);
+  }, i*65);
 }
 
 function animateLetterIn(nw, i) {
   setTimeout(function() {
 		nw[i].className = 'letter in';
-  }, 340+(i*80));
+  }, 340+(i*65));
 }
 
 function splitLetters(word) {
