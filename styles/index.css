@@ -35,6 +35,7 @@ body {
 }
 
 .grained {
+  display: none;
   z-index: 1000;
   background: url("../img/gained.png");
   height: 300%;
@@ -152,6 +153,9 @@ a.botao:hover {
 @media screen and (min-height: 900px) {
   :root {
     font-size: 20px;
+  }
+  .grained {
+    display: block;
   }
 }
 
