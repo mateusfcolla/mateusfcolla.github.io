@@ -100,14 +100,15 @@ nav {
         font-weight: 900;
         .container{
             margin: 1rem;
+            position: relative;
             .word{
-                
                 text-rendering: optimizeLegibility!important;
                 white-space: pre;
                 left: 50%;
                 transform: translate(-50%, -10%);
                 opacity: 0;
                 display: block;
+                top: 0;
                 position: absolute;
             }
         }

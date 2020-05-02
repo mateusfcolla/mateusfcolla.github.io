@@ -119,6 +119,7 @@ nav p a:hover {
 
 .texto h1 .container {
   margin: 1rem;
+  position: relative;
 }
 
 .texto h1 .container .word {
@@ -129,6 +130,7 @@ nav p a:hover {
           transform: translate(-50%, -10%);
   opacity: 0;
   display: block;
+  top: 0;
   position: absolute;
 }
 
